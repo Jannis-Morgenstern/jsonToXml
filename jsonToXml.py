@@ -2,15 +2,6 @@ import json
 import xml.etree.ElementTree as ET
 
 # import and parse json file
-with open('original_converted.json', encoding='utf-8-sig') as file:
-    data = json.load(file)
-
-
-def dict_to_xml(data, root='root'):
-    root = ET.Element(root)
-    build_xml(root, data)
-    tree = ET.ElementTree(root)
-    tree.write('sample.xml', short_empty_elements=False)
 
 
 def build_xml(root, data, listname='ListName'):
@@ -32,4 +23,15 @@ def build_xml(root, data, listname='ListName'):
     return root
 
 
-dict_to_xml(data, root='Cluster')
+def dict_to_xml(json_file,  out_file, json_encoding='utf-8-sig', root='Cluster', short_empty_elements=False):
+    with open(json_file, encoding=json_encoding) as file:
+        data = json.load(file)
+
+    root = ET.Element(root)
+    build_xml(root, data)
+    tree = ET.ElementTree(root)
+    tree.write(out_file, short_empty_elements=short_empty_elements)
+
+
+dict_to_xml('original.json', 'output.xml',
+            root='Cluster', short_empty_elements=False)
