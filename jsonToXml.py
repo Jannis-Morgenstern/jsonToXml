@@ -1,10 +1,8 @@
 import json
 import xml.etree.ElementTree as ET
 
-# import and parse json file
 
-
-def build_xml(root, data, listname='ListName'):
+def build_xml(root, data, listname=''):
     if isinstance(data, dict):
         for key, val in data.items():
             if not (isinstance(val, tuple) or isinstance(val, list)) or len(val) == 0:
