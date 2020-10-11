@@ -1,0 +1,4293 @@
+<Cluster>
+  <Name></Name>
+  <NumElts>9</NumElts>
+  <Array>
+    <Name>Abschaltbedingungen</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>1.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>1.00000000000000E-2</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>4.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.40000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>1</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.10000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>Abschaltbedingungen Blockfahrt</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>Abschaltbedingungen L&#246;sespannung</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abschaltbedingungen</Name>
+      <NumElts>5</NumElts>
+      <Cluster>
+        <Name>Clamping</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Releasing</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_min [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>d/dt F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 9</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <Cluster>
+        <Name>Clamping II</Name>
+        <NumElts>15</NumElts>
+        <DBL>
+          <Name>F_max [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>I_max [A]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>t_max [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>S_max [mm]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Delay [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold F [kN]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+          <Name>Threshold t [s]</Name>
+          <Val>0.00000000000000</Val>
+        </DBL>
+        <Boolean>
+          <Name>S 1</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 2</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 3</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>S 4</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 5</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 6</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 7</Name>
+          <Val>0</Val>
+        </Boolean>
+        <Boolean>
+          <Name>L 1 8</Name>
+          <Val>0</Val>
+        </Boolean>
+      </Cluster>
+      <DBL>
+        <Name>Time to wait [s]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta Force [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>Power Supplies</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Power Supply</Name>
+      <NumElts>2</NumElts>
+      <DBL>
+        <Name>Voltage [V]</Name>
+        <Val>12.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Current Limit [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>Abbruchbedingungen</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbedingungen</Name>
+      <NumElts>8</NumElts>
+      <DBL>
+        <Name>Imax [A]</Name>
+        <Val>20.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Umax [V]</Name>
+        <Val>6.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_1 [kN]</Name>
+        <Val>0.50000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax_2 [kN]</Name>
+        <Val>3.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmin [kN]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Smax [mm]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>t_I_on [s]</Name>
+        <Val>13.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>delta F [kN]
+Compensation</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>Fmax_DMS [kN]</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>Abbruchbed.</Name>
+      <NumElts>3</NumElts>
+      <DBL>
+        <Name>Fmax [kN] DMS 2</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 3</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>Fmax [kN] DMS 4</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Array>
+    <Name>eta</Name>
+    <Dimsize>6</Dimsize>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+    <Cluster>
+      <Name>eta</Name>
+      <NumElts>4</NumElts>
+      <DBL>
+        <Name>eta[F1]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F2]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F3]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+      <DBL>
+        <Name>eta[F4]</Name>
+        <Val>0.00000000000000</Val>
+      </DBL>
+    </Cluster>
+  </Array>
+  <Cluster>
+    <Name>Betriebsart</Name>
+    <NumElts>8</NumElts>
+    <Boolean>
+      <Name>Automatik</Name>
+      <Val>1</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Automatik Start</Name>
+      <Val>1</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Aktuator 1</Name>
+      <Val>0</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Aktuator 2</Name>
+      <Val>0</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Aktuator 3</Name>
+      <Val>0</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Umschaltung</Name>
+      <Val>1</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Abschaltung</Name>
+      <Val>1</Val>
+    </Boolean>
+    <Boolean>
+      <Name>Stop</Name>
+      <Val>0</Val>
+    </Boolean>
+  </Cluster>
+  <Cluster>
+    <Name>Global Aktuator Settings</Name>
+    <NumElts>9</NumElts>
+    <I32>
+      <Name>Ruhezeit [ms]</Name>
+      <Val>0</Val>
+    </I32>
+    <I32>
+      <Name>Umin Konst [ms]</Name>
+      <Val>0</Val>
+    </I32>
+    <I32>
+      <Name>Timeout [ms]
+load cycle</Name>
+      <Val>10000</Val>
+    </I32>
+    <I32>
+      <Name>Cycle block
+movement</Name>
+      <Val>1</Val>
+    </I32>
+    <I32>
+      <Name>Cycle voltage
+release</Name>
+      <Val>0</Val>
+    </I32>
+    <U16>
+      <Name>Temperature Compensation</Name>
+      <Val>0</Val>
+    </U16>
+    <U16>
+      <Name>Data Storage</Name>
+      <Val>2</Val>
+    </U16>
+    <DBL>
+      <Name>Gain-Integrator</Name>
+      <Val>0.00000000000000</Val>
+    </DBL>
+    <Boolean>
+      <Name>shutdown voltage</Name>
+      <Val>0</Val>
+    </Boolean>
+  </Cluster>
+</Cluster>

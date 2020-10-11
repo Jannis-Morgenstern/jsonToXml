@@ -1,16 +1,21 @@
 import json
+import glob
 import xml.etree.ElementTree as ET
 
-# import and parse json file
-with open('original_converted.json', encoding='utf-8-sig') as file:
-    data = json.load(file)
+
+def files_to_dicts(files, encoding='utf-8-sig'):
+    dicts = []
+    for file in files:
+        with open(file, encoding=encoding) as file:
+            dicts.append(json.load(file))
+    return dicts
 
 
-def dict_to_xml(data, root='root'):
+def dict_to_xml(data, output_file_name='sample.xml', root='root'):
     root = ET.Element(root)
     build_xml(root, data)
     tree = ET.ElementTree(root)
-    tree.write('sample.xml', short_empty_elements=False)
+    tree.write(output_file_name, short_empty_elements=False)
 
 
 def build_xml(root, data, listname='ListName'):
@@ -32,4 +37,10 @@ def build_xml(root, data, listname='ListName'):
     return root
 
 
-dict_to_xml(data, root='Cluster')
+file_names = glob.glob('**/*.json', recursive=True)
+
+data = files_to_dicts(file_names)
+
+for idx, dictionary in enumerate(data):
+    dict_to_xml(
+        dictionary, output_file_name=file_names[idx][:-5] + '.xml', root='Cluster')
