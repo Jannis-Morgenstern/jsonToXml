@@ -1,0 +1,4644 @@
+﻿{
+	"Name": [],
+	"NumElts": "9",
+	"Array": [
+		{
+			"Name": "Abschaltbedingungen",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "1.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "1.00000000000000E-2"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "1"
+								},
+								{
+									"Name": "S 3",
+									"Val": "1"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "4.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.40000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "1"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.10000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Abschaltbedingungen Blockfahrt",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Abschaltbedingungen Lösespannung",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abschaltbedingungen",
+					"NumElts": "5",
+					"Cluster": [
+						{
+							"Name": "Clamping",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Releasing",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_min [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "d/dt F [kN]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "S 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 9",
+									"Val": "0"
+								}
+							]
+						},
+						{
+							"Name": "Clamping II",
+							"NumElts": "15",
+							"DBL": [
+								{
+									"Name": "F_max [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "I_max [A]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "t_max [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "S_max [mm]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Delay [s]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold F [kN]",
+									"Val": "0.00000000000000"
+								},
+								{
+									"Name": "Threshold t [s]",
+									"Val": "0.00000000000000"
+								}
+							],
+							"Boolean": [
+								{
+									"Name": "S 1",
+									"Val": "0"
+								},
+								{
+									"Name": "S 2",
+									"Val": "0"
+								},
+								{
+									"Name": "S 3",
+									"Val": "0"
+								},
+								{
+									"Name": "S 4",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 5",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 6",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 7",
+									"Val": "0"
+								},
+								{
+									"Name": "L 1 8",
+									"Val": "0"
+								}
+							]
+						}
+					],
+					"DBL": [
+						{
+							"Name": "Time to wait [s]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "delta Force [kN]",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Power Supplies",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Power Supply",
+					"NumElts": "2",
+					"DBL": [
+						{
+							"Name": "Voltage [V]",
+							"Val": "12.00000000000000"
+						},
+						{
+							"Name": "Current Limit [A]",
+							"Val": "20.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Abbruchbedingungen",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbedingungen",
+					"NumElts": "8",
+					"DBL": [
+						{
+							"Name": "Imax [A]",
+							"Val": "20.00000000000000"
+						},
+						{
+							"Name": "Umax [V]",
+							"Val": "6.00000000000000"
+						},
+						{
+							"Name": "Fmax_1 [kN]",
+							"Val": "0.50000000000000"
+						},
+						{
+							"Name": "Fmax_2 [kN]",
+							"Val": "3.00000000000000"
+						},
+						{
+							"Name": "Fmin [kN]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Smax [mm]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "t_I_on [s]",
+							"Val": "13.00000000000000"
+						},
+						{
+							"Name": "delta F [kN]\nCompensation",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Fmax_DMS [kN]",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "Abbruchbed.",
+					"NumElts": "3",
+					"DBL": [
+						{
+							"Name": "Fmax [kN] DMS 2",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 3",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "Fmax [kN] DMS 4",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "eta",
+			"Dimsize": "6",
+			"Cluster": [
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				},
+				{
+					"Name": "eta",
+					"NumElts": "4",
+					"DBL": [
+						{
+							"Name": "eta[F1]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F2]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F3]",
+							"Val": "0.00000000000000"
+						},
+						{
+							"Name": "eta[F4]",
+							"Val": "0.00000000000000"
+						}
+					]
+				}
+			]
+		}
+	],
+	"Cluster": [
+		{
+			"Name": "Betriebsart",
+			"NumElts": "8",
+			"Boolean": [
+				{
+					"Name": "Automatik",
+					"Val": "1"
+				},
+				{
+					"Name": "Automatik Start",
+					"Val": "1"
+				},
+				{
+					"Name": "Aktuator 1",
+					"Val": "0"
+				},
+				{
+					"Name": "Aktuator 2",
+					"Val": "0"
+				},
+				{
+					"Name": "Aktuator 3",
+					"Val": "0"
+				},
+				{
+					"Name": "Umschaltung",
+					"Val": "1"
+				},
+				{
+					"Name": "Abschaltung",
+					"Val": "1"
+				},
+				{
+					"Name": "Stop",
+					"Val": "0"
+				}
+			]
+		},
+		{
+			"Name": "Global Aktuator Settings",
+			"NumElts": "9",
+			"I32": [
+				{
+					"Name": "Ruhezeit [ms]",
+					"Val": "0"
+				},
+				{
+					"Name": "Umin Konst [ms]",
+					"Val": "0"
+				},
+				{
+					"Name": "Timeout [ms]\nload cycle",
+					"Val": "10000"
+				},
+				{
+					"Name": "Cycle block\nmovement",
+					"Val": "1"
+				},
+				{
+					"Name": "Cycle voltage\nrelease",
+					"Val": "0"
+				}
+			],
+			"U16": [
+				{
+					"Name": "Temperature Compensation",
+					"Val": "0"
+				},
+				{
+					"Name": "Data Storage",
+					"Val": "2"
+				}
+			],
+			"DBL": {
+				"Name": "Gain-Integrator",
+				"Val": "0.00000000000000"
+			},
+			"Boolean": {
+				"Name": "shutdown voltage",
+				"Val": "0"
+			}
+		}
+	]
+}
