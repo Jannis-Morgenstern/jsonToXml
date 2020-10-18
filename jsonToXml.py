@@ -1,3 +1,4 @@
+import time
 import json
 import glob
 import xml.etree.ElementTree as ET
@@ -41,6 +42,15 @@ file_names = glob.glob('**/*.json', recursive=True)
 
 data = files_to_dicts(file_names)
 
-for idx, dictionary in enumerate(data):
-    dict_to_xml(
-        dictionary, output_file_name=file_names[idx][:-5] + '.xml', root='Cluster')
+# for idx, dictionary in enumerate(data):
+#     dict_to_xml(
+#         dictionary, output_file_name=file_names[idx][:-5] + '.xml', root='Cluster')
+
+
+def foo():
+    print(time.ctime())
+
+
+while True:
+    foo()
+    time.sleep(1)
