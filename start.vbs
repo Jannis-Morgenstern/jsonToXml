@@ -2,7 +2,6 @@
 Set SHELL = CreateObject("WScript.Shell")
 Set FS = CreateObject("Scripting.FileSystemObject")
 Set INFOLDER = FS.GetFolder("./in")
-Set OUTFOLDER = FS.GetFolder("./out")
 CMD = "Python jsonToXml.py"
 
 Function GetNewestFile(folder)

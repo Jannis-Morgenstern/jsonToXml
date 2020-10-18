@@ -1,5 +1,5 @@
-import time
 import json
+import os
 import glob
 import xml.etree.ElementTree as ET
 
@@ -7,8 +7,9 @@ import xml.etree.ElementTree as ET
 def files_to_dicts(files, encoding='utf-8-sig'):
     dicts = []
     for file in files:
-        with open(file, encoding=encoding) as file:
-            dicts.append(json.load(file))
+        if (os.path.getsize(file) > 0):
+            with open(file, encoding=encoding) as file:
+                dicts.append(json.load(file))
     return dicts
 
 
@@ -38,19 +39,10 @@ def build_xml(root, data, listname='ListName'):
     return root
 
 
-file_names = glob.glob('**/*.json', recursive=True)
+file_names = glob.glob('./in/*.json', recursive=True)
 
 data = files_to_dicts(file_names)
 
-# for idx, dictionary in enumerate(data):
-#     dict_to_xml(
-#         dictionary, output_file_name=file_names[idx][:-5] + '.xml', root='Cluster')
-
-
-def foo():
-    print(time.ctime())
-
-
-while True:
-    foo()
-    time.sleep(1)
+for idx, dictionary in enumerate(data):
+    dict_to_xml(
+        dictionary, output_file_name='./out/' + file_names[idx][5:-5] + '.xml', root='Cluster')
